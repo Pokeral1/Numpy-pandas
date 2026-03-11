@@ -37,7 +37,7 @@ def task5(marks,students,subjects):
     students=np.array(students)
     print("Names of students who failed : ",students[np.where(np.mean(marks,1)<50)])
     print("Names of students who above 90 in any subject: ",students[np.where(np.max(marks,axis=1)>90)])
-    print("Marks of students who scored highest in computer : ",marks[np.argmax(marks[:,subjects.index('Computer')]),subjects.index('Computer')])
+    print("All Marks of students who scored highest in computer : ",marks[np.argmax(marks[:,subjects.index('Computer')])])
 task1(marks)
 task2(marks)
 task3(marks,subjects)

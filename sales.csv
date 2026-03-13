@@ -1,0 +1,13 @@
+month,product,region,revenue,units_sold
+Jan,Laptop,North,120000,12
+Jan,Phone,South,85000,34
+Feb,Laptop,North,135000,14
+Feb,Phone,South,92000,37
+Mar,Laptop,East,118000,11
+Mar,Phone,West,78000,31
+Apr,Laptop,South,145000,15
+Apr,Phone,North,95000,38
+May,Laptop,East,160000,16
+May,Phone,South,88000,35
+Jun,Laptop,West,152000,15
+Jun,Phone,North,102000,41
